@@ -1,0 +1,32 @@
+.search{
+    position: absolute;
+    margin-top: 10%;
+    left: 50%;
+}
+
+.AvailableCourses table{
+    width: 50%;
+    position: absolute;
+    left: 35%;
+    margin-top: 20%;
+}
+.AvailableCourses table,.AvailableCourses table th,.AvailableCourses table td{
+    /* border: 1px solid lightsalmon; */
+    border: 1px solid rgb(151, 89, 46);
+    border-collapse: collapse;
+    text-align: center;
+}
+.AvailableCourses table th{
+    /* background-color: lightcoral; */
+    background-color: rgb(98, 62, 37);
+    color: white;
+    font-weight: 500;
+}
+.AvailableCourses table th:nth-child(5){
+    width: 100px;
+}
+.enroll{
+    margin-top: 0;
+    margin: 5% 40%;
+    background-color: rgb(46, 147, 46);
+}

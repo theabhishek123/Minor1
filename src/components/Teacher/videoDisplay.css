@@ -1,0 +1,186 @@
+.video {
+    width: 99%;
+    height: 105vh;
+}
+
+.videoContainer {
+    width: 90%;
+    height: 105vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+    left: 5%;
+}
+
+.courseBody {
+    background-color: #171a1f;
+    padding-bottom: 10%;
+}
+
+.eplist {
+    width: 90%;
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+    box-shadow: 0 0 2px 1px #51829B;
+}
+
+.eplist thead {
+    background-color: #76ABAE;
+}
+
+.eplist td {
+
+    color: #EEEEEE;
+
+}
+
+.eplist td:nth-child(2) {
+    padding: .7% 2%;
+    text-align: left;
+}
+
+.eplist td:nth-child(3) {
+    width: 10%;
+}
+
+.eplistContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.play {
+    padding: 5% 20%;
+    border-radius: 15px;
+    border: none;
+    transition: background-color 0.7s; /* Added transition property */
+}
+
+.eplist tbody tr:hover {
+    transition: background-color 0.7s; /* Added transition property */
+    /* background-color: #51829B; */
+    background-color: rgb(16, 22, 33);
+    /* box-shadow: inset 0 0 2px 1px #2e7091; */
+}
+tbody,tbody tr{
+    border-collapse: collapse;
+}
+
+.eplist tbody tr:hover .play {
+    padding: 5% 20%;
+    border-radius: 15px;
+    border: none;
+    background-color:rgb(115, 79, 79) ;
+    color: white;
+    box-shadow: 0 0 3px 1px rgb(153, 106, 106);
+}
+
+.play:hover ,.Discussion-form form input[type="submit"]:hover{
+    background-color: rgb(51, 164, 98);
+    box-shadow: 0 0 3px 1px rgb(86, 250, 154);
+}
+
+
+.Discussion-form{
+    color: white;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    margin-top: 5%;
+    padding: 2% 1%;
+    box-shadow: 0 0 2px 1px #51829B;
+    border-radius: 10px;
+}
+.Discussion-form form{
+    box-shadow: 0 0 2px .5px #51829B;
+    padding: 1%;
+    border-radius: 10px;
+   
+}
+.Discussion-form form div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.Discussion-form form input[type="search"]{
+    margin-left: 3%;
+    width: 95%;
+    padding: .5% 2%;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+.Discussion-form form input[type="search"]:focus{
+   
+}
+.Discussion-form form input[type="submit"]{
+    position: relative;
+    width: 7%;
+    left:93%;
+    margin-top: 1%;
+    padding: .4% 1%;
+    border-radius: 15px;
+    border: none;
+    transition: background-color 0.4s;
+    transition: box-shadow 0.4s;
+    background-color:rgb(9, 119, 156) ;
+    color: white;
+    
+}
+
+
+.scrollable-container {
+    height: 150px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    scrollbar-color: transparent transparent; /* Optional: Add smooth scrolling effect */
+}
+
+.scrollable-container.scroll-down {
+    scroll-behavior: auto; /* Disable smooth scrolling when scrolling down */
+}
+.clogo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #171a1f;
+    font-weight: bold;
+}
+
+.Comments{
+    color: white;
+    font: 14px;
+    box-shadow: 0 0 1px .2px #51829B;
+    padding: .4% 1%;
+    padding-bottom: 0;
+    border-radius: 40px;
+    margin: 1% 0;
+}
+.Comments div:nth-child(1){
+    display: flex;
+    column-gap: 1%;
+}
+.Comments div:nth-child(1) div{
+   margin-top: .5%;
+}
+.Comments div:nth-child(2){
+    padding: 0% 4.8%;
+}
+.Comments div:nth-child(1) p{
+    font-size: 15px;
+}
+.Comments div:nth-child(2) p{
+    font-size: 12px;
+    margin-top: -1.5%;
+}
